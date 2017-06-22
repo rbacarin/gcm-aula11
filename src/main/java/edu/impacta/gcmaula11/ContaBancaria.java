@@ -6,10 +6,9 @@ public class ContaBancaria {
 	public ContaBancaria(long s) { saldo = s; }
 	
 	public void depositar(long valor) {
+		// issue guiga10
 		saldo = saldo + valor;
-		
-		
-	} // oiii
+	}
 	
 	
 	
