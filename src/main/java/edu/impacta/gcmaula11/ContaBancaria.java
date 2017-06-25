@@ -6,10 +6,9 @@ public class ContaBancaria {
 	public ContaBancaria(long s) { saldo = s; }
 	
 	public void depositar(long valor) {
-		// FALTA IMPLEMENTAR
-		// Deve acrescentar o valor ao saldo
+		saldo = saldo + valor;
 	}
-	
+  
 	public boolean sacar(long valor) {
 		if(valor <= saldo){
 			saldo-=valor;
@@ -19,10 +18,8 @@ public class ContaBancaria {
 	}
 	
 	public long getSaldo() {
-		// FALTA IMPLEMENTAR
-		// Deve retornar o saldo
-		return 0;
+		return saldo;
+
 	}
-	
 }
  
